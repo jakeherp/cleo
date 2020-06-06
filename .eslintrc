@@ -49,6 +49,7 @@
         "ignoreComments": true
       }
     ],
+    "no-empty-pattern": "off",
     "no-plusplus": [
       "error",
       {

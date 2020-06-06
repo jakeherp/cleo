@@ -29,15 +29,6 @@ const Bills = () => {
     }
   }, [response]);
 
-  // export default async (setState: ([]) => void, setError: any) => {
-  //   try {
-  //     const { data } = await axios.get('http://localhost:3002/bills');
-  //   } catch (err) {
-  //     setError(err);
-  //   }
-  // };
-
-
   if (error) {
     return (
       <Content>
